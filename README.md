@@ -3,7 +3,7 @@ A working PCB layout for making your own MBC5 based Gameboy cartridge.
 
 This is a working Gameboy flash cartridge. I've made a few different types of cartridges, but thought this would be the most popular due to being compatible with the InsideGadgets GBxCart RW. I occasionally sell small batches of these once I've got enough together.
 
-The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
+The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
 
 **EEPROM AM29F016B**
 
@@ -24,61 +24,64 @@ The MBC5 is compatible with all previous MBC chips before it, and so every game 
 Here is my short list of tested games for the cartridge:
 
 **ROM too big:**
-Harry Potter Chamber Secrets
-Harry Potter Sorcerers Stone
-Dragons Lair
-Alone in the Dark
-Cannon Fodder
-Austin Powers Welcome to my underground
-Austin Powers Oh Behave
-Perfect Dark
-Dragon Warrior 3
-Stone Age
-Yu-gi-oh Duel Monsters 4
-Yu-gi-oh Dark Duel Stories
-Tomb Raider
-Tomb Raider 2
-Tomb Raider Curse of The Sword
-Heroic Sword
-Jungle Book Mowglis Wild Adventure
-Grand Theft Auto
-Shantae
-Dragon Warrior Monsters 2 - Cobi's Journey
-Dragon Warrior Monsters 2 - Tara's Adventure
-Donkey Kong Country
-Rayman
-Mickeys Speedway
-Mickeys Racing Adventure
-Donald Duck Going Quackers
+
+Harry Potter Chamber Secrets, 
+Harry Potter Sorcerers Stone, 
+Dragons Lair, 
+Alone in the Dark, 
+Cannon Fodder, 
+Austin Powers Welcome to my underground, 
+Austin Powers Oh Behave, 
+Perfect Dark, 
+Dragon Warrior 3, 
+Stone Age, 
+Yu-gi-oh Duel Monsters 4, 
+Yu-gi-oh Dark Duel Stories, 
+Tomb Raider, 
+Tomb Raider 2, 
+Tomb Raider Curse of The Sword, 
+Heroic Sword, 
+Jungle Book Mowglis Wild Adventure, 
+Grand Theft Auto, 
+Shantae, 
+Dragon Warrior Monsters 2 - Cobi's Journey, 
+Dragon Warrior Monsters 2 - Tara's Adventure, 
+Donkey Kong Country, 
+Rayman, 
+Mickeys Speedway, 
+Mickeys Racing Adventure, 
+Donald Duck Going Quackers,
 
 
 **Not Working:**
-Super Mario Land Six Golden Coins - Major graphical problems
-Zelda: Links Awakening - Crashes when saving
-Duke Nukem
-Game & Watch Gallery 1 & 2
-Turok Rage Wars
-Tony Hawk Pro Skater 2
-Megaman Xtreme 2
-International Karate
-Dragon Ball z Legendary Super Warriors
+
+Super Mario Land Six Golden Coins - Major graphical problems, 
+Zelda: Links Awakening - Crashes when saving, 
+Duke Nukem, 
+Game & Watch Gallery 1 & 2, 
+Turok Rage Wars, 
+Tony Hawk Pro Skater 2, 
+Megaman Xtreme 2, 
+International Karate, 
+Dragon Ball z Legendary Super Warriors, 
 
 **Working:**
-Pokemon Yellow
-Pokemon Blue
-Pokemon Red
-Pokemon TPP
-Pokemon Gold - No RTC
-Pokemon Silver - No RTC
-Pokemon Crystal - No RTC
-Pokemon Prism V0.94.0237 - No RTC
-Pokemon Crystal Clear - No RTC
-Pokemon Trading Card
-Pokemon Picross
-Mole Mania
-Wario Land 2
-Wario Land 3
-Micro Machines V3
-Test Drive 6
 
-Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. If you can't build your own then look out for my cartridges for sale or buy from InsideGadgets. I'm hoping that mine will be cheaper, but they will not be available like InsideGadgets ones will be.
+Pokemon Yellow, 
+Pokemon Blue, 
+Pokemon Red, 
+Pokemon TPP, 
+Pokemon Gold - No RTC, 
+Pokemon Silver - No RTC, 
+Pokemon Crystal - No RTC, 
+Pokemon Prism V0.94.0237 - No RTC, 
+Pokemon Crystal Clear - No RTC, 
+Pokemon Trading Card, 
+Pokemon Picross, 
+Mole Mania, 
+Wario Land 2, 
+Wario Land 3, 
+Micro Machines V3, 
+Test Drive 6, 
+
+Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. If you can't build your own then look out for my cartridges for sale or buy from InsideGadgets. I'm hoping that mine will be cheaper, but they will not be available like InsideGadgets ones will be. Also the InsideGadgets cartridges use a custom CPLD for the MBC, making it more compatible and easier to get a bunch of them vs pulling apart original cartridges.
