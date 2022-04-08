@@ -37,6 +37,7 @@ Tony Hawk Pro Skater 2
 Megaman Xtreme 2
 International Karate
 Dragon Ball z Legendary Super Warriors
+Pokemon Perfect Crystal - Crashes after title screen
 
 Working:
 Pokemon Yellow
@@ -55,4 +56,4 @@ Wario Land 2
 Wario Land 3
 Micro Machines V3
 Test Drive 6
-
+Zelda: Links Awakening DX
