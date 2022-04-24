@@ -32,3 +32,11 @@ The MBC5 is compatible with all previous MBC chips before it, and so every game 
 
 
 Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. If you can't build your own then look out for my cartridges for sale or buy from InsideGadgets. I'm hoping that mine will be cheaper, but they will not be available like InsideGadgets ones will be. Also the InsideGadgets cartridges use a custom CPLD for the MBC, making it more compatible and easier to get a bunch of them vs pulling apart original cartridges.
+
+**CHANGE LOG**
+
+24/04/22
+Noticed a mistake in 5v top plane. Not sure how this hasn't caused problems. Also changed routing of some grounds and 5v traces.
+
+20/03/22
+First Revision uploaded. A few hours of testing done, everything worked as expected. Built 10 of these original versions.
