@@ -36,8 +36,13 @@ Turok Rage Wars
 Tony Hawk Pro Skater 2
 Megaman Xtreme 2
 International Karate
-Dragon Ball z Legendary Super Warriors
+Dragon Ball Z Legendary Super Warriors
 Pokemon Perfect Crystal - Crashes after title screen
+
+
+Part Working:
+Tetris DX - Save corruption on DMG. Works on GBC.
+
 
 Working:
 Pokemon Yellow
