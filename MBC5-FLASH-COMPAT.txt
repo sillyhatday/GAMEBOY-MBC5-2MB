@@ -40,10 +40,6 @@ Dragon Ball Z Legendary Super Warriors
 Pokemon Perfect Crystal - Crashes after title screen
 
 
-Part Working:
-Tetris DX - Save corruption on DMG. Works on GBC.
-
-
 Working:
 Pokemon Yellow
 Pokemon Blue
@@ -61,4 +57,5 @@ Wario Land 2
 Wario Land 3
 Micro Machines V3
 Test Drive 6
+Tetris DX
 Zelda: Links Awakening DX
