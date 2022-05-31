@@ -1,0 +1,6 @@
+31/05/22 Not a change as such. I've had problems with Cypress branded FRAM. I Haven't determined if it is bad quality or fake chips. Right now, I suggest sticking with Ramtron
+branded FRAM. All kinds of strange behavior is to be expected.
+
+24/04/22 Noticed a mistake in 5v top plane. Not sure how this hasn't caused problems. Also changed routing of some grounds and 5v traces.
+
+20/03/22 First Revision uploaded. A few hours of testing done, everything worked as expected. Built 10 of these original versions.
