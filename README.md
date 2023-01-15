@@ -37,7 +37,9 @@ Feel free to do whatever you wish with this design. I want everyone to enjoy the
 
 **CHANGE LOG**
 15/01/23
-Updated Readme in the FRAM section and the end section. Added more to the compatability list.
+Updated Readme in the FRAM section and the end section. Cypress is a the newer name for Ramtron, it's definitly a problem with junk parts not Cypress chips. Also added more to the compatability list.
+
+31/05/22 Not a change as such. I've had problems with Cypress branded FRAM. I Haven't determined if it is bad quality or fake chips. Right now, I suggest sticking with Ramtron branded FRAM. All kinds of strange behavior is to be expected.
 
 24/04/22
 Noticed a mistake in 5v top plane. Not sure how this hasn't caused problems. Also changed routing of some grounds and 5v traces.
