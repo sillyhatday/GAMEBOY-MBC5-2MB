@@ -18,20 +18,26 @@ I've found them available from Aliexpress very easily. I got them for just over 
 
 **SRAM FM18W08**
 
-The SRAM isn't SRAM, its the modern FRAM that was made to replace battery backed SRAM in industrial PLC applications (among other things I'm sure). Once more Aliexpress has these in a small supply. These are the most expensive part of building this, apart from the donor MBC5 chip, depends on where you get the MBC5. The FRAM is available on eBay but the prices are egregious. Definitly do not buy the FRAM from eBay. The FM1808 was discontinued in 2008 and replaced by the FM18W08 which should be available from more reputable suppliers like Mouser and Digikey. The FM1808 is what I have tested, but there should be no reason the FM18W08 shouldn't work.
+The SRAM isn't SRAM, its the modern FRAM that was made to replace battery backed SRAM in industrial PLC applications (among other things I'm sure). Once more Aliexpress has these in a small supply. These are the most expensive part of building this, apart from the donor MBC5 chip, depends on where you get the MBC5. The FRAM is available on eBay but the prices are egregious. You can get quality versions of the FRAM from reputable suppliers like Mouser and Digikey. The FM1808, FM18W08, FM1808B and FM18L08 all work in this desgin. FM1808 and the FM18L08 are out of production, so any you find will be old stock or poor copies. Bear in mind that the L version is a 3.3v part that is able to stand an extreme of 5v at its input, so I don't suggest using that if possible.
+
+So in my tinkering with all this, I can suggest that you spend £12 per chip for a quality item. Aliexpress and eBay are full of either copies or factory rejected parts. You can find them for around £2 per chip and you get junk. In a batch of 5 from Aliexpress, none of them worked. From another batch, I went through 4 before finding a working one. In the end I went through 8 chips before getting one that works. So 9 chips x £2 is £18 for one working chip. Better off spending the £12 for one.
 
 **Memory Controller MBC5**
 
 This is the most expensive part of the cartridge. That does depend though. I have been able to find a lot of MBC5 based games for £3. You can be more patient and get them a touch cheaper. I've had some for as low as £1. You'll need a heat gun to remove the chip from the board. It can be done with a soldering iron with gentle prising and patience.
+
+It's not hard though, as every basic game out there for the GBC was MBC5 based. So, lots to go at. 
 
 **Compatability** See MBC5-FLASH-COMPAT.TXT for currently tested games
 
 The MBC5 is compatible with all previous MBC chips before it, and so every game should work with an MBC5 chip. It doesn't. It depends if the programmer followed the rules when making their games. Mole Mania wasn't designed for an MBC5 and works perfectly, yet Zelda - Links Awakening doesn't work and crashes when saving. It all depends on where the programmers wrote to adress spaces. The MBC5 has a few more functions built in and a few other quirks (or fixes) that the MBC1 didn't have. So it's hit or miss for non MBC5 games, that said every MBC5 based game should work that fits into the ROM. Large 4MB games will not work as they will not fit onto the 2MB EEPROM. I may may make a 4MB cart in future, but the 4MB EEPROM are so expensive, I don't think it is worth it. I might do the design and just leave it untested and make it open source.
 
 
-Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. If you can't build your own then look out for my cartridges for sale or buy from InsideGadgets. I'm hoping that mine will be cheaper, but they will not be available like InsideGadgets ones will be. Also the InsideGadgets cartridges use a custom CPLD for the MBC, making it more compatible and easier to get a bunch of them vs pulling apart original cartridges.
+Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I have not yet got around to selling any of these.
 
 **CHANGE LOG**
+15/01/23
+Updated Readme in the FRAM section and the end section. Added more to the compatability list.
 
 24/04/22
 Noticed a mistake in 5v top plane. Not sure how this hasn't caused problems. Also changed routing of some grounds and 5v traces.
