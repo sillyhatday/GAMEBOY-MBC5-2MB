@@ -1,3 +1,7 @@
+21/01/23 Updated to V1.2. The Board size has been adjusted to better fit into cartridge shells. Also added extra 5v trace.
+
+15/01/23 Updated Readme in the FRAM section and the end section. Cypress is a the newer name for Ramtron, it's definitly a problem with junk parts not Cypress chips. Also added more to the compatability list.
+
 31/05/22 Not a change as such. I've had problems with Cypress branded FRAM. I Haven't determined if it is bad quality or fake chips. Right now, I suggest sticking with Ramtron
 branded FRAM. All kinds of strange behavior is to be expected.
 
