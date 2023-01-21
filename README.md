@@ -1,7 +1,7 @@
 # GAMEBOY-FLASHCART-MBC5
 A working PCB layout for making your own MBC5 based Gameboy cartridge.
 
-This is a working Gameboy flash cartridge. I've made a few different types of cartridges, but thought this would be the most popular due to being compatible with the InsideGadgets GBxCart RW. I occasionally sell small batches of these once I've got enough together.
+This is a working Gameboy flash cartridge. I've made a few different types of cartridges, but thought this would be the most popular due to being compatible with the InsideGadgets GBxCart RW.
 
 The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
 
@@ -36,6 +36,9 @@ The MBC5 is compatible with all previous MBC chips before it, and so every game 
 Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I have not yet got around to selling any of these.
 
 **CHANGE LOG**
+21/01/23
+Updated to V1.2. The Board size has been adjusted to better fit into cartridge shells. Also added extra 5v trace.
+
 15/01/23
 Updated Readme in the FRAM section and the end section. Cypress is a the newer name for Ramtron, it's definitly a problem with junk parts not Cypress chips. Also added more to the compatability list.
 
