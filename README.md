@@ -36,6 +36,7 @@ The MBC5 is compatible with all previous MBC chips before it, and so every game 
 Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I have not yet got around to selling any of these.
 
 **CHANGE LOG**
+
 21/01/23
 Updated to V1.2. The Board size has been adjusted to better fit into cartridge shells. Also added extra 5v trace.
 
