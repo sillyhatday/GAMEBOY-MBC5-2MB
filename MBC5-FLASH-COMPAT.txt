@@ -28,22 +28,27 @@ Donald Duck Going Quackers
 
 
 Not Working:
-Super Mario Land Six Golden Coins - Major graphical problems
-Zelda: Links Awakening - Crashes when saving
 Duke Nukem
-Game & Watch Gallery 1 & 2
-Turok Rage Wars
-Tony Hawk Pro Skater 2
-Megaman Xtreme 2
-International Karate
+Donkey Kong - Freezes on Nintendo logo
+Donkey Kong Land - Saving is broken
 Dragon Ball Z Legendary Super Warriors
+Game & Watch Gallery 1 & 2
+International Karate
+Megaman Xtreme 2
 Pokemon Perfect Crystal - Crashes after title screen
+Super Mario Land Six Golden Coins - Major graphical problems
+Tony Hawk Pro Skater 2
+Turok Rage Wars
+Zelda: Links Awakening - Crashes when saving
 
 
 Working:
+Animal Breeder - MBC1 Game
+Bomber Man Quest - MBC1 Game
 Final Fantasy Adventure - MBC2 Game
 Micro Machines V3
 Mole Mania - MBC1 Game
+Pacman Redux - MBC1 ROM Hack
 Parasol Stars - MBC1 Game
 Pokemon Yellow - Long Test
 Pokemon Thunder Yellow - Long Test
@@ -57,6 +62,7 @@ Pokemon Prism V0.94.0237 - No RTC
 Pokemon Crystal Clear - No RTC
 Pokemon Trading Card
 Pokemon Picross
+Super Mario Land X - MBC1 Rom Hack
 Test Drive 6
 Tetris DX - Long Test
 Wario Land 2
