@@ -33,8 +33,8 @@ Donkey Kong Land - Saving is broken - MBC1 Game
 Game & Watch Gallery 1 & 2
 International Karate
 Megaman Xtreme 2
-Pokemon Perfect Crystal - Crashes after title screen
-Super Mario Land Six Golden Coins - Major graphical problems
+Pokemon Perfect Crystal - Crashes after title screen - MBC3 Game
+Super Mario Land Six Golden Coins - Major graphical problems - MBC1 Game
 Turok Rage Wars
 Zelda: Links Awakening - Crashes when saving - MBC1 Game
 
