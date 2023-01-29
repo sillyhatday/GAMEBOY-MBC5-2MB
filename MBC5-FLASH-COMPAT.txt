@@ -1,30 +1,30 @@
 ROM too big:
+Alone in the Dark
+Austin Powers Oh Behave
+Austin Powers Welcome to my underground
+Cannon Fodder
+Donald Duck Going Quackers
+Donkey Kong Country
+Dragons Lair
+Dragon Warrior Monsters 2 - Cobi's Journey
+Dragon Warrior Monsters 2 - Tara's Adventure
+Dragon Warrior 3
+Grand Theft Auto
 Harry Potter Chamber Secrets
 Harry Potter Sorcerers Stone
-Dragons Lair
-Alone in the Dark
-Cannon Fodder
-Austin Powers Welcome to my underground
-Austin Powers Oh Behave
+Heroic Sword
+Jungle Book Mowglis Wild Adventure
+Mickeys Racing Adventure
+Mickeys Speedway
 Perfect Dark
-Dragon Warrior 3
+Rayman
+Shantae
 Stone Age
-Yu-gi-oh Duel Monsters 4
-Yu-gi-oh Dark Duel Stories
 Tomb Raider
 Tomb Raider 2
 Tomb Raider Curse of The Sword
-Heroic Sword
-Jungle Book Mowglis Wild Adventure
-Grand Theft Auto
-Shantae
-Dragon Warrior Monsters 2 - Cobi's Journey
-Dragon Warrior Monsters 2 - Tara's Adventure
-Donkey Kong Country
-Rayman
-Mickeys Speedway
-Mickeys Racing Adventure
-Donald Duck Going Quackers
+Yu-gi-oh Duel Monsters 4
+Yu-gi-oh Dark Duel Stories
 
 
 Not Working:
@@ -35,7 +35,6 @@ International Karate
 Megaman Xtreme 2
 Pokemon Perfect Crystal - Crashes after title screen
 Super Mario Land Six Golden Coins - Major graphical problems
-Tony Hawk Pro Skater 2
 Turok Rage Wars
 Zelda: Links Awakening - Crashes when saving - MBC1 Game
 
@@ -66,6 +65,7 @@ Pokemon Picross
 Super Mario Land X - MBC1 Rom Hack
 Test Drive 6
 Tetris DX - Long Test
+Tony Hawk Pro Skater 2
 Wario Land 2
 Wario Land 3
 Zelda: Links Awakening DX - Long Test
