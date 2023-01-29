@@ -28,10 +28,8 @@ Donald Duck Going Quackers
 
 
 Not Working:
-Duke Nukem
-Donkey Kong - Freezes on Nintendo logo
-Donkey Kong Land - Saving is broken
-Dragon Ball Z Legendary Super Warriors
+Donkey Kong - Freezes on Nintendo logo - MBC1 Game
+Donkey Kong Land - Saving is broken - MBC1 Game
 Game & Watch Gallery 1 & 2
 International Karate
 Megaman Xtreme 2
@@ -39,12 +37,14 @@ Pokemon Perfect Crystal - Crashes after title screen
 Super Mario Land Six Golden Coins - Major graphical problems
 Tony Hawk Pro Skater 2
 Turok Rage Wars
-Zelda: Links Awakening - Crashes when saving
+Zelda: Links Awakening - Crashes when saving - MBC1 Game
 
 
 Working:
 Animal Breeder - MBC1 Game
 Bomber Man Quest - MBC1 Game
+Dragon Ball Z Legendary Super Warriors
+Duke Nukem
 Final Fantasy Adventure - MBC2 Game
 Micro Machines V3
 Mole Mania - MBC1 Game
