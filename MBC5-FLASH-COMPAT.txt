@@ -51,10 +51,11 @@ Mole Mania - MBC1 Game
 Pacman Redux - MBC1 ROM Hack
 Parasol Stars - MBC1 Game
 Pokemon Yellow - Long Test
-Pokemon Thunder Yellow - Long Test
+Pokemon Thunder Yellow - ROM Hack Long Test
 Pokemon Blue
 Pokemon Red
-Pokemon TPP
+Pokemon Red Plus Plus - Rom Hack
+Pokemon TPP - Rom Hack
 Pokemon Gold - No RTC
 Pokemon Silver - No RTC
 Pokemon Crystal - No RTC
