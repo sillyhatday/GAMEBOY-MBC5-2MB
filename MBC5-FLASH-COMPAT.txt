@@ -32,7 +32,8 @@ Donkey Kong - Freezes on Nintendo logo - MBC1 Game
 Donkey Kong Land - Saving is broken - MBC1 Game
 Game & Watch Gallery 1 - Graphical & sound glitches, some modes freeze - MBC1
 International Karate
-Megaman Xtreme 2
+Megaman Xtreme - Black Screen
+Megaman Xtreme 2 - Black Screen
 Pokemon Gold - No RTC
 Pokemon Silver - No RTC
 Pokemon Crystal - No RTC
@@ -40,17 +41,19 @@ Pokemon Prism V0.94.0237 - No RTC
 Pokemon Crystal Clear - No RTC
 Pokemon Perfect Crystal - Crashes after title screen - MBC3 Game
 Super Mario Land Six Golden Coins - Major graphical problems - MBC1 Game
-Turok Rage Wars
+Turok Rage Wars - Freezes after language select
 Zelda: Links Awakening - Crashes when saving - MBC1 Game
 
 
 Working:
 Animal Breeder - MBC1 Game
 Bomber Man Quest - MBC1 Game
+Colin McRae Rally
 Dragon Ball Z Legendary Super Warriors
 Duke Nukem
 Final Fantasy Adventure - MBC2 Game
 Micro Machines V3
+Micro Maniacs
 Mole Mania - MBC1 Game
 Pacman Redux - MBC1 ROM Hack
 Parasol Stars - MBC1 Game
@@ -62,6 +65,8 @@ Pokemon Red Plus Plus - Rom Hack - MBC3
 Pokemon TPP - Rom Hack
 Pokemon Trading Card
 Pokemon Picross
+Pokemon Pinball
+R-Type DX
 Super Mario Land X - MBC1 Rom Hack
 Test Drive 6
 Tetris DX - Long Test
