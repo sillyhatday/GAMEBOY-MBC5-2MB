@@ -1,4 +1,4 @@
-ROM too big:
+4MB ROM - too big:
 Alone in the Dark
 Austin Powers Oh Behave
 Austin Powers Welcome to my underground
@@ -30,9 +30,14 @@ Yu-gi-oh Dark Duel Stories
 Not Working:
 Donkey Kong - Freezes on Nintendo logo - MBC1 Game
 Donkey Kong Land - Saving is broken - MBC1 Game
-Game & Watch Gallery 1 & 2
+Game & Watch Gallery 1 - Graphical & sound glitches, some modes freeze - MBC1
 International Karate
 Megaman Xtreme 2
+Pokemon Gold - No RTC
+Pokemon Silver - No RTC
+Pokemon Crystal - No RTC
+Pokemon Prism V0.94.0237 - No RTC
+Pokemon Crystal Clear - No RTC
 Pokemon Perfect Crystal - Crashes after title screen - MBC3 Game
 Super Mario Land Six Golden Coins - Major graphical problems - MBC1 Game
 Turok Rage Wars
@@ -49,17 +54,12 @@ Micro Machines V3
 Mole Mania - MBC1 Game
 Pacman Redux - MBC1 ROM Hack
 Parasol Stars - MBC1 Game
-Pokemon Yellow - Long Test
-Pokemon Thunder Yellow - ROM Hack Long Test
-Pokemon Blue
-Pokemon Red
-Pokemon Red Plus Plus - Rom Hack
+Pokemon Yellow - Tested 30 hours
+Pokemon Thunder Yellow - ROM Hack Tested 25 hours
+Pokemon Blue - MBC3 Game
+Pokemon Red - MBC3 Game
+Pokemon Red Plus Plus - Rom Hack - MBC3
 Pokemon TPP - Rom Hack
-Pokemon Gold - No RTC
-Pokemon Silver - No RTC
-Pokemon Crystal - No RTC
-Pokemon Prism V0.94.0237 - No RTC
-Pokemon Crystal Clear - No RTC
 Pokemon Trading Card
 Pokemon Picross
 Super Mario Land X - MBC1 Rom Hack
