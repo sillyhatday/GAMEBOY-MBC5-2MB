@@ -58,6 +58,7 @@ Micro Maniacs
 Mole Mania - MBC1 Game
 Pacman Redux - MBC1 ROM Hack
 Parasol Stars - MBC1 Game
+Pocket Racing
 Pokemon Yellow - Tested 30 hours
 Pokemon Thunder Yellow - ROM Hack Tested 25 hours
 Pokemon Blue - MBC3 Game
