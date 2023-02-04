@@ -41,6 +41,7 @@ Pokemon Prism V0.94.0237 - No RTC
 Pokemon Crystal Clear - No RTC
 Pokemon Perfect Crystal - Crashes after title screen - MBC3 Game
 Super Mario Land Six Golden Coins - Major graphical problems - MBC1 Game
+Survival Kids - Text curruption & Sound glitches
 Turok Rage Wars - Freezes after language select
 Zelda: Links Awakening - Crashes when saving - MBC1 Game
 
@@ -69,6 +70,7 @@ Pokemon Trading Card
 Pokemon Picross
 Pokemon Pinball
 R-Type DX
+Sabrina - Zapped!
 Super Mario Land X - MBC1 Rom Hack
 Test Drive 6
 Tetris DX - Long Test
