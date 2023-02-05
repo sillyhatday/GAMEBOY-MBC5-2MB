@@ -31,7 +31,10 @@ Not Working:
 Donkey Kong - Freezes on Nintendo logo - MBC1 Game
 Donkey Kong Land - Saving is broken - MBC1 Game
 Game & Watch Gallery 1 - Graphical & sound glitches, some modes freeze - MBC1
+Gargoyle's Quest - Ghosts'n Goblins - MBC1 Game - White screen
 International Karate
+Kirby's Dream Land 2 - MBC1 Game - Freezes creating profile
+Megaman 5 - MBC1 Game - White screen
 Megaman Xtreme - Black Screen
 Megaman Xtreme 2 - Black Screen
 Pokemon Gold - No RTC
@@ -54,9 +57,14 @@ Colin McRae Rally
 Dragon Ball Z Legendary Super Warriors
 Duke Nukem
 Final Fantasy Adventure - MBC2 Game
+Kirby's Pinball Land - MBC2 Game
+Legend of Zelda: Links Awakening DX - Long Test
+Legend of Zelda: Oracle of Seasons/Ages
 Micro Machines V3
 Micro Maniacs
 Mole Mania - MBC1 Game
+Mortal Combat 3 - MBC1 Game
+Oddworld Adventures
 Pacman Redux - MBC1 ROM Hack
 Parasol Stars - MBC1 Game
 Pocket Racing
@@ -72,6 +80,7 @@ Pokemon Pinball
 R-Type DX
 Sabrina - Zapped!
 Super Mario Land X - MBC1 Rom Hack
+Super Mario Bros. Deluxe
 Test Drive 6
 Tetris DX - Long Test
 The Sword of Hope - MBC1 Game
@@ -80,4 +89,3 @@ Tony Hawk Pro Skater 2
 Wario Land 2
 Wario Land 3
 X - MBC2 Game
-Zelda: Links Awakening DX - Long Test
