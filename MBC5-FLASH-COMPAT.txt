@@ -60,6 +60,7 @@ Final Fantasy Adventure - MBC2 Game
 Kirby's Pinball Land - MBC2 Game
 Legend of Zelda: Links Awakening DX - Long Test
 Legend of Zelda: Oracle of Seasons/Ages
+Lock 'N Chase - MBC1 Game
 Micro Machines V3
 Micro Maniacs
 Mole Mania - MBC1 Game
@@ -67,6 +68,7 @@ Mortal Combat 3 - MBC1 Game
 Oddworld Adventures
 Pacman Redux - MBC1 ROM Hack
 Parasol Stars - MBC1 Game
+Pinball - Revenge of the Gator - MBC1 Game
 Pocket Racing
 Pokemon Yellow - Tested 30 hours
 Pokemon Thunder Yellow - ROM Hack Tested 25 hours
@@ -77,6 +79,7 @@ Pokemon TPP - Rom Hack
 Pokemon Trading Card
 Pokemon Picross
 Pokemon Pinball
+Quarth
 R-Type DX
 Roadrash
 Sabrina - Zapped!
@@ -85,6 +88,7 @@ Super Mario Land X - MBC1 Rom Hack
 Super Mario Bros. Deluxe
 Test Drive 6
 Tetris DX - Long Test
+Tetris Plus - MBC1 Game
 The Sword of Hope - MBC1 Game
 Trip World - MBC1 Game
 Tony Hawk Pro Skater 2
