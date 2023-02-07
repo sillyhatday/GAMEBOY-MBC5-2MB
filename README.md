@@ -5,11 +5,10 @@ This is a working Gameboy flash cartridge. I've made a few different types of ca
 
 The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
 
-![Gameboy MBC5 Cart + FRAM V1 1 Front](https://user-images.githubusercontent.com/65309612/164986777-b8135e78-49ff-47f9-9c12-1bee6f389243.jpg)
+![Gameboy MBC5 Cart + FRAM V1 3 Front](https://user-images.githubusercontent.com/65309612/217316399-95f1497b-a199-4759-89ab-da6727a77792.jpg)
 
-![Gameboy MBC5 Cart + FRAM V1 1 Rear](https://user-images.githubusercontent.com/65309612/164986783-6f54a3cb-f7f0-4b71-86f0-46bf79b2fc7b.jpg)
 
-![Batch Made](https://user-images.githubusercontent.com/65309612/159160560-ba56514f-a369-4ae1-9265-43d162a6d556.jpeg)
+![Gameboy MBC5 Cart + FRAM V1 3 Back](https://user-images.githubusercontent.com/65309612/217316410-2b375823-c92a-4bc8-96bc-5fdd09963ec8.jpg)
 
 
 **EEPROM AM29F016B**
@@ -36,6 +35,9 @@ The MBC5 is compatible with all previous MBC chips before it, and so every game 
 Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I have not yet got around to selling any of these.
 
 **CHANGE LOG**
+
+07/02/23
+Updated to V1.3. Adjusted some trace routes for a better looking board. Added missing capacitor value to board for C4. Added many games to compatibility list.
 
 21/01/23
 Updated to V1.2. The Board size has been adjusted to better fit into cartridge shells. Also added extra 5v trace.
