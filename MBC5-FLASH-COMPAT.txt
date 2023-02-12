@@ -30,6 +30,7 @@ Yu-gi-oh Dark Duel Stories
 Not Working:
 Donkey Kong - Freezes on Nintendo logo - MBC1
 Donkey Kong Land - Saving is broken - MBC1
+Donkey Kong Land 3 - Missing sprites - Stuck on level 1 - MBC1
 Game & Watch Gallery 1 - Graphical & sound glitches, some modes freeze - MBC1
 Gargoyle's Quest - Ghosts'n Goblins - MBC1 - White screen
 International Karate
@@ -63,11 +64,14 @@ Colin McRae Rally
 Dragon Ball Z Legendary Super Warriors
 Duke Nukem
 Final Fantasy Adventure - MBC2
+Harvest Moon GB - MBC1
 Harvest Moon 3
+Kirby's Block Ball - MBC1
 Kirby's Pinball Land - MBC2
 Legend of Zelda: Links Awakening DX - Long Test
 Legend of Zelda: Oracle of Seasons/Ages
 Lock 'N Chase - MBC1
+Mario's Picross 2 - MBC1
 Megaman 2 - MBC1
 Megaman 3 - MBC1
 Megaman - Dr. Wily's Revenge - MBC1
@@ -106,4 +110,5 @@ Trip World - MBC1
 Tony Hawk Pro Skater 2
 Wario Land 2
 Wario Land 3
+Waterworld - MBC1
 X - MBC2
