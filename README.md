@@ -10,6 +10,9 @@ The difficulty of making such a device these days is, when the Gameboy was relea
 
 ![Gameboy MBC5 Cart + FRAM V1 3 Back](https://user-images.githubusercontent.com/65309612/217316410-2b375823-c92a-4bc8-96bc-5fdd09963ec8.jpg)
 
+![20230221_171429](https://user-images.githubusercontent.com/65309612/220550074-6f311412-90b6-4d36-a241-e4299aa35a17.jpg)
+
+Working version 1.3
 
 **EEPROM AM29F016B**
 
