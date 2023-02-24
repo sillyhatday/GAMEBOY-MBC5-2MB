@@ -1,6 +1,8 @@
 # GAMEBOY-FLASHCART-MBC5
 A working PCB layout for making your own MBC5 based Gameboy cartridge.
 
+Using footprints from https://github.com/HDR Be sure to check out their designs as well.
+
 This is a working Gameboy flash cartridge. I've made a few different types of cartridges, but thought this would be the most popular due to being compatible with the InsideGadgets GBxCart RW.
 
 The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
