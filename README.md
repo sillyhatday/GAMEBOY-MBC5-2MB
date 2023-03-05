@@ -7,14 +7,15 @@ This is a working Gameboy flash cartridge. I've made a few different types of ca
 
 The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
 
-![Gameboy MBC5 Cart + FRAM V1 3 Front](https://user-images.githubusercontent.com/65309612/217316399-95f1497b-a199-4759-89ab-da6727a77792.jpg)
-
+![Gameboy MBC5 Cart + FRAM V1 4 Front](https://user-images.githubusercontent.com/65309612/222985872-a6a6a875-8e90-4cac-a58d-20c75f550a93.jpg)
 
 ![Gameboy MBC5 Cart + FRAM V1 3 Back](https://user-images.githubusercontent.com/65309612/217316410-2b375823-c92a-4bc8-96bc-5fdd09963ec8.jpg)
 
-![20230221_171429](https://user-images.githubusercontent.com/65309612/220550074-6f311412-90b6-4d36-a241-e4299aa35a17.jpg)
+![20230220_165643](https://user-images.githubusercontent.com/65309612/222986217-0f97228c-7c23-4498-a106-4085a7a98712.jpg)
 
-Working version 1.3
+![20230225_124657](https://user-images.githubusercontent.com/65309612/222986245-af637c55-5d70-44d1-82fe-ba0df399cd89.jpg)
+
+Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStopPlease https://www.instagram.com/nxt.stop.please/# https://nextstopplease.square.site/
 
 **EEPROM AM29F016B**
 
@@ -37,9 +38,12 @@ It's not hard though, as every basic game out there for the GBC was MBC5 based. 
 The MBC5 is compatible with all previous MBC chips before it, and so every game should work with an MBC5 chip. It doesn't. It depends if the programmer followed the rules when making their games. Mole Mania wasn't designed for an MBC5 and works perfectly, yet Zelda - Links Awakening doesn't work and crashes when saving. It all depends on where the programmers wrote to adress spaces. The MBC5 has a few more functions built in and a few other quirks (or fixes) that the MBC1 didn't have. So it's hit or miss for non MBC5 games, that said every MBC5 based game should work that fits into the ROM. Large 4MB games will not work as they will not fit onto the 2MB EEPROM. I may may make a 4MB cart in future, but the 4MB EEPROM are so expensive, I don't think it is worth it. I might do the design and just leave it untested and make it open source.
 
 
-Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I have not yet got around to selling any of these.
+Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I'm looking at starting Kofi page.
 
 **CHANGE LOG**
+
+05/03/23
+Update to V1.4. Changed some tiny errors in trace routing, invisible but bugged me. Changed MBC and ROM footprints to standard library footprints.
 
 07/02/23
 Updated to V1.3. Adjusted some trace routes for a better looking board. Added missing capacitor value to board for C4. Added many games to compatibility list.
