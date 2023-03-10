@@ -42,6 +42,9 @@ Feel free to do whatever you wish with this design. I want everyone to enjoy the
 
 **CHANGE LOG**
 
+10/03/23
+Updated the top edge cut drill hole. Doesn't quite fit in shells with the top stud properly. It should now, but is untested.
+
 05/03/23
 Update to V1.4. Changed some tiny errors in trace routing, invisible but bugged me. Changed MBC and ROM footprints to standard library footprints.
 
