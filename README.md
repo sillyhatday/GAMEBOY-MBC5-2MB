@@ -20,9 +20,13 @@ Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStop
 **Bill of materials:**
 
 29F016 TSOP ROM x1
+
 FM1808 or FM18W08 (or FM18L08 not reccomended) x1
+
 MBC5 x1
+
 10K 0603 resistor x2
+
 0.1uF 0603 capacitor x4
 
 **EEPROM AM29F016B**
