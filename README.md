@@ -7,9 +7,9 @@ This is a working Gameboy flash cartridge. I've made a few different types of ca
 
 The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
 
-![Gameboy MBC5 Cart + FRAM V1 5 Front](https://user-images.githubusercontent.com/65309612/224508948-e05945a0-d753-490d-9ad4-9466c4741a48.jpg)
+![Gameboy MBC5 Cart + FRAM V1 6 Front](https://user-images.githubusercontent.com/65309612/230716951-95ecdbc6-8eb0-44d3-9068-b3f82394cdc2.jpg)
 
-![Gameboy MBC5 Cart + FRAM V1 5 Back](https://user-images.githubusercontent.com/65309612/224508955-f40a5692-7ce3-488f-a822-306330ec5544.jpg)
+![Gameboy MBC5 Cart + FRAM V1 6 Rear](https://user-images.githubusercontent.com/65309612/230716953-81aaa358-a366-4041-96d1-af0cfec8f2cc.jpg)
 
 ![20230220_165643](https://user-images.githubusercontent.com/65309612/222986217-0f97228c-7c23-4498-a106-4085a7a98712.jpg)
 
@@ -53,6 +53,9 @@ The MBC5 is compatible with all previous MBC chips before it, and so every game 
 Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I'm looking at starting Kofi page.
 
 **CHANGE LOG**
+
+08/04/23
+Changed fill edge limits to right values for new KiCad version. Changed Sillyhatday rear label to be more subtle.
 
 10/03/23
 Updated the top edge cut drill hole. Doesn't quite fit in shells with the top stud properly. It should now, but is untested.
