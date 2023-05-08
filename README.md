@@ -25,6 +25,8 @@ FM1808 or FM18W08 (or FM18L08 not reccomended) x1
 
 MBC5 x1
 
+SN74LVC1G332DBVR x1
+
 10K 0603 resistor x2
 
 0.1uF 0603 capacitor x4
