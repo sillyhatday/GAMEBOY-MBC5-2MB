@@ -18,18 +18,14 @@ The difficulty of making such a device these days is, when the Gameboy was relea
 Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStopPlease https://www.instagram.com/nxt.stop.please/# https://nextstopplease.square.site/
 
 **Bill of materials:**
-
-29F016 TSOP ROM x1
-
-FM1808 or FM18W08 (or FM18L08 not reccomended) x1
-
-MBC5 x1
-
-SN74LVC1G332DBVR x1
-
-10K 0603 resistor x2
-
-0.1uF 0603 capacitor x4
+| Part | Quantity |
+|--------------|----|
+| 29F016 Flash | x1 |
+| FM1808 or FM18W08 (or FM18L08 not reccomended) | x1 |
+| MBC5 | x1 |
+| SN74LVC1G332DBVR | x1 (OPTIONAL) |
+| 10K 0603 resistor | x2 |
+| 0.1uF 0603 capacitor | x4 |
 
 **EEPROM AM29F016B**
 
