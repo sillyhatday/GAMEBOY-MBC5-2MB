@@ -11,8 +11,6 @@ The difficulty of making such a device these days is, when the Gameboy was relea
 
 ![Gameboy MBC5 Cart + FRAM V2 Back](https://user-images.githubusercontent.com/65309612/236902269-627004b6-fed0-4831-9132-fb519170e6c8.jpg)
 
-![20230220_165643](https://user-images.githubusercontent.com/65309612/222986217-0f97228c-7c23-4498-a106-4085a7a98712.jpg)
-
 ![20230225_124657](https://user-images.githubusercontent.com/65309612/222986245-af637c55-5d70-44d1-82fe-ba0df399cd89.jpg)
 
 Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStopPlease https://www.instagram.com/nxt.stop.please/# https://nextstopplease.square.site/
@@ -51,6 +49,9 @@ The MBC5 is compatible with all previous MBC chips before it, and so every game 
 Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I'm looking at starting Kofi page.
 
 **CHANGE LOG**
+
+30/11/23
+Last update was not final. This should hopefully be final. More tastful logo design on the cart now. I've spend ages making sure the holes in the PCB are the same as factory Nintendo PCB. They should actually fit in Nintendo shells now with the small top locating pin. Nothing more to add now. I've actually got some of these on order for myself. Last ones I had made were V1.2
 
 08/05/23
 Big update. Added OR gate for better MBC1 compatibility, which can be bypassed if not desired. Moved nearly every trace to reduce vias and improve appearance. Likely final update unless there is a problem.
