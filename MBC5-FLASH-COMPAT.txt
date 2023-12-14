@@ -45,7 +45,7 @@ Pokemon Crystal - No RTC
 Pokemon Prism V0.94.0237 - No RTC
 Pokemon Crystal Clear - No RTC
 Pokemon Perfect Crystal - Crashes after title screen - MBC3
-Super Mario Land Six Golden Coins - Major graphical problems - MBC1
+Super Mario Land Six Golden Coins - Major graphical problems - MBC1 (See Working for a Fix)
 Survival Kids - Text curruption & Sound glitches
 Turok Rage Wars - Freezes after language select
 Wario Land - Super Mario Land 3 - MBC1 - Major graphical problems
@@ -104,6 +104,8 @@ Spuds Adventure - MBC1
 Super Mario Land
 Super Mario Land X - MBC1 Rom Hack
 Super Mario Bros. Deluxe
+Super Mario Land Six Golden Coins Bung Fix
+Super Mario Land Six Golden Coins DX (Use bung fix version to apply patch)
 Test Drive 6
 Tetris DX - Long Test
 Tetris Plus - MBC1
