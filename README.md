@@ -1,5 +1,5 @@
 # GAMEBOY-FLASHCART-MBC5 2MB
-A working PCB layout for making your own MBC5 2MB based Gameboy cartridge.
+A working PCB layout for making your own MBC5 2MB based Gameboy cartridge. Final version fully tested. Unless there is an issue that comes up, then consider this complete.
 
 Using footprints from https://github.com/HDR Be sure to check out their designs as well.
 
@@ -27,7 +27,7 @@ Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStop
 
 **EEPROM AM29F016B**
 
-I've found them available from Aliexpress very easily. Lately the prices of these have risen. Once available for about £1 per chip are not £1.60 per chip. These are a 16-bit address and 8-bit data bus EEPROM. The write enable pin is brought to the audio pin on the Gameboy cartridge header. This is compatible with the GBxCart RW. The pin is held to 5v to keep it disabled during usage through a pullup resistor. You can buy 0603 spec 10k resistors or reuse the resistor on an original Nintendo doner PCB. I've not seen any need for this pull up resistor, but I can see it will cause a problem down the line somehow without it. 70 hours into Pokemon Yellow I wouldn't want the EEPROM to get corrupted and loose your save. I'm not sure if the audio pin is held low by the Gameboy, I think it is, so likely there isn't a need for it. You can omit it if you like. You'll use 500uA of current usage.
+I've found them available from Aliexpress very easily. Lately the prices of these have risen. Once available for about £1 per chip are not £1.60 per chip. These are a 16-bit address and 8-bit data bus EEPROM. The write enable pin is brought to the audio pin on the Gameboy cartridge header. This is compatible with the GBxCart RW. The pin is held to 5v to keep it disabled during usage through a pullup resistor. You can buy 0603 spec 10k resistors or reuse the resistor on an original Nintendo doner PCB. I've not seen any need for this pull up resistor, but I can see it will cause a problem down the line somehow without it. 70 hours into Pokemon Yellow I wouldn't want the EEPROM to get corrupted and loose your save. I'm not sure if the audio pin is held low by the Gameboy, I think it is, so likely there isn't a need for it. You can omit it if you like. You'll save 500uA of current from the the Gameboy power supply.
 
 **SRAM FM18W08**
 
