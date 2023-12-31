@@ -8,9 +8,8 @@ This is a working Gameboy flash cartridge. I've made a few different types of ca
 
 The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
 
-![Gameboy MBC5 Cart + FRAM V2 Front](https://user-images.githubusercontent.com/65309612/236902261-84b71ec0-ba48-4eb1-a1a6-82ddf2fdb627.jpg)
-
-![Gameboy MBC5 Cart + FRAM V2 Back](https://user-images.githubusercontent.com/65309612/236902269-627004b6-fed0-4831-9132-fb519170e6c8.jpg)
+![IMG_5662](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/d1c8e6ab-e6d2-49b6-afda-699cef6fa9b4)
+![IMG_5668](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/448fb447-8838-43ae-a5bb-0fa0a498bef3)
 
 ![20230225_124657](https://user-images.githubusercontent.com/65309612/222986245-af637c55-5d70-44d1-82fe-ba0df399cd89.jpg)
 
