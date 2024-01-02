@@ -4,9 +4,19 @@ A working PCB layout for making your own MBC5 2MB based Gameboy cartridge. Final
 
 Using footprints from https://github.com/HDR Be sure to check out their designs as well.
 
-This is a working Gameboy flash cartridge. I've made a few different types of cartridges, but thought this would be the most popular due to being compatible with the InsideGadgets GBxCart RW.
+## Game Compatibility
 
-The difficulty of making such a device these days is, when the Gameboy was released, the 8-bit era was already on the way out. So 33 years later, parts are not readily available. I'm not sure how other people manage to aquire a consistant supply of components.
+Simply put, this has the second highest compatibility and the most cost effective of all types to make. If you are looking for a first cartridge to build yourself, then this is it.
+
+Nearly all Gameboy colour games used this memory mapper. It can address 32KB to 8MB of game storage and 8KB to 128KB of game save storage. This one only using 2MB of game storage and 32KB of save storage, as 95% of the games using this mapper are within that size range. Most 8KB save files should work fine on the 32KB chip also. The MBC5 should be compatible with all previous MBC chips before it. It depends if the programmer followed the rules when making their games. Mole Mania wasn't designed for an MBC5 and works perfectly, yet Zelda - Links Awakening doesn't work and crashes when saving. It all depends on where the programmers wrote to adress spaces. The MBC5 has a few more functions built in and a few other quirks (or fixes) that the MBC1 didn't have.
+
+Games that use real time clock functions do not work correctly on this cartridge due to it not having the clock functionality. Most Pokemon games will not work properly on this. They require a MBC3 cartridge.
+
+The small chip in the centre of the PCB is not required for this cartridge. You can simply bridge the connection near it to bypass it. It’s only included as people seem to like using the extra refreshing logic with FRAM. Due to its subtle differences with SRAM some cartridges require it to allow it to work correctly. It seems the MBC5 in this usage already refreshes the FRAM of its own.
+
+### See MBC5-FLASH-COMPAT.TXT for currently tested games
+
+## Photos
 
 ![IMG_5662](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/d1c8e6ab-e6d2-49b6-afda-699cef6fa9b4)
 ![IMG_5668](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/448fb447-8838-43ae-a5bb-0fa0a498bef3)
@@ -17,7 +27,7 @@ Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStop
 ![Gameboy MBC5 Cart + FRAM V2 Front](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/f2586d9a-831e-468e-8c8e-8a8ad4ca383e)
 ![Gameboy MBC5 Cart + FRAM V2 Back](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/23483403-b0d2-4510-b748-d8e9af974f26)
 
-**Bill of materials:**
+## Bill of materials:
 | Part | Quantity |
 |--------------|----|
 | 29F016 Flash | x1 |
@@ -41,16 +51,7 @@ So in my tinkering with all this, I can suggest that you spend £12 per chip for
 
 This is the most expensive part of the cartridge. That does depend though. I have been able to find a lot of MBC5 based games for £3. You can be more patient and get them a touch cheaper. I've had some for as low as £1. You'll need a heat gun to remove the chip from the board. It can be done with a soldering iron with gentle prising and patience.
 
-It's not hard though, as every basic game out there for the GBC was MBC5 based. So, lots to go at. 
-
-## Compatability 
-### See MBC5-FLASH-COMPAT.TXT for currently tested games
-
-The MBC5 is compatible with all previous MBC chips before it, and so every game should work with an MBC5 chip. It doesn't. It depends if the programmer followed the rules when making their games. Mole Mania wasn't designed for an MBC5 and works perfectly, yet Zelda - Links Awakening doesn't work and crashes when saving. It all depends on where the programmers wrote to adress spaces. The MBC5 has a few more functions built in and a few other quirks (or fixes) that the MBC1 didn't have. So it's hit or miss for non MBC5 games, that said every MBC5 based game should work that fits into the ROM. Large 4MB games will not work as they will not fit onto the 2MB EEPROM. I may may make a 4MB cart in future, but the 4MB EEPROM are so expensive, I don't think it is worth it. I might do the design and just leave it untested and make it open source.
-
-*I made a solution to this problem. 4MB from 2 MB chips here https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-DUAL-FLASH-4-8MB Not for beginners*
-
-Feel free to do whatever you wish with this design. I want everyone to enjoy the Gameboy in whatever way they can. I'm looking at starting Kofi page.
+It's not hard though, as every basic game out there for the GBC was MBC5 based. So, lots to go at.
 
 ## CHANGE LOG
 
