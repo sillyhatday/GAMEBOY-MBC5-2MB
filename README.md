@@ -22,8 +22,6 @@ Earlier games from the DMG should work, Nintendo kept each revision of mapper co
 ![IMG_5668](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/448fb447-8838-43ae-a5bb-0fa0a498bef3)
 ![20230225_124657](https://user-images.githubusercontent.com/65309612/222986245-af637c55-5d70-44d1-82fe-ba0df399cd89.jpg)
 
-Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStopPlease https://www.instagram.com/nxt.stop.please/# https://nextstopplease.square.site/
-
 ![Gameboy MBC5 Cart + FRAM V2 Front](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/f2586d9a-831e-468e-8c8e-8a8ad4ca383e)
 
 ## 🟣 Bill of materials:
@@ -65,6 +63,18 @@ You used to be able to go on eBay and find trash games for €3 easily, some dea
 | 31/05/22 | Not a change as such. I've had problems with Cypress branded FRAM. I Haven't determined if it is bad quality or fake chips. Right now, I suggest sticking with Ramtron branded FRAM. All kinds of strange behavior is to be expected. |
 | 24/04/22 | Noticed a mistake in 5v top plane. Not sure how this hasn't caused problems. Also changed routing of some grounds and 5v traces. |
 | 20/03/22 | First Revision uploaded. A few hours of testing done, everything worked as expected. Built 10 of these original versions. |
+
+## Links
+
+🏷️ NextStopPlease Labels: https://nextstopplease.square.site/
+📷 NextStopPlease Insta: https://www.instagram.com/nxt.stop.please/#
+🛍️ Inside Gadgets Shop: https://shop.insidegadgets.com <br>
+📎 Inside Gadgets GitHub: https://github.com/insidegadgets <br>
+📷 Inside Gadgets Insta: https://www.instagram.com/inside.gadgets <br>
+🖇️ Bytendo Mods GitHub: https://github.com/bytendomods <br>
+🐭 Bucket Mouse: https://github.com/Bucket-Mouse <br>
+🛒 Natalie Shop: https://nataliethenerd.com/ <br>
+🤓 Natalie GitHub: https://github.com/natalie-lang/natalie <br>
 
 ## ⚖️ License
 
