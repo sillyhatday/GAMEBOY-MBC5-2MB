@@ -18,15 +18,16 @@ Earlier games from the DMG should work, Nintendo kept each revision of mapper co
 
 ## 📷 Photos
 
+<img width="800" height="450" alt="mbc5x3" src="https://github.com/user-attachments/assets/155773fb-53d9-461e-be3d-257cc47a1bf0" />
+
 ![IMG_5662](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/d1c8e6ab-e6d2-49b6-afda-699cef6fa9b4)
 ![IMG_5668](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/448fb447-8838-43ae-a5bb-0fa0a498bef3)
-![20230225_124657](https://user-images.githubusercontent.com/65309612/222986245-af637c55-5d70-44d1-82fe-ba0df399cd89.jpg)
 
-![Gameboy MBC5 Cart + FRAM V2 Front](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/f2586d9a-831e-468e-8c8e-8a8ad4ca383e)
+<img width="600" height="631" alt="mbc5" src="https://github.com/user-attachments/assets/0c3836ba-9024-4461-85ec-8c33ab2983c0" />
 
 ## 🟣 Bill of materials:
 
->[IMPORTANT]
+>[!IMPORTANT]
 >When ordering PCBs, be sure to order in 0.8mm thickness with gold plating!
 
 | Part | Quantity |
@@ -66,8 +67,8 @@ You used to be able to go on eBay and find trash games for €3 easily, some dea
 
 ## Links
 
-🏷️ NextStopPlease Labels: https://nextstopplease.square.site/
-📷 NextStopPlease Insta: https://www.instagram.com/nxt.stop.please/#
+🏷️ NextStopPlease Labels: https://nextstopplease.square.site/ <br>
+📷 NextStopPlease Insta: https://www.instagram.com/nxt.stop.please/ <br>
 🛍️ Inside Gadgets Shop: https://shop.insidegadgets.com <br>
 📎 Inside Gadgets GitHub: https://github.com/insidegadgets <br>
 📷 Inside Gadgets Insta: https://www.instagram.com/inside.gadgets <br>
