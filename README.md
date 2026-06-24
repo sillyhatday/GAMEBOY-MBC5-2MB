@@ -47,6 +47,9 @@ I've found them available from Aliexpress very easily. Lately the prices of thes
 ### 🐏 FRAM FM1808 <br>
 These are expensive. Current prices are €11.90 from Mouser. They are available for much less on Aliexpress, for the same price you can get 5 - 10. These are known to be ***extremely*** unreliable. You are likely buying factory rejects that don't fully work or meet the speed rating. In a batch of 5 from Aliexpress I got, none of them worked. Another 10 I got, I went through 4 before finding a working one. In the end I went through 8 chips before getting one that works. The cost of 9 dodgy chips was more than one from Mouser.
 
+### ❗OR Gate SN74LVC1G332DBVR
+I consider this optional but reccomended. In my testing, I have not found that games under 2MB in size require extra glue logic. I'd still use it to be confident that your game saves will be safe.
+
 ### ❔ Memory Controller MBC5 <br>
 You used to be able to go on eBay and find trash games for €3 easily, some deals I've had as low as €1. I could go on eBay and grab one or two of them per week. They seem to have gone up and the best deals are about €5 now. You'll need a hot air station to remove the chip from the board.
 
