@@ -5,6 +5,9 @@ A working PCB layout for making your own MBC5 2MB based Gameboy cartridge. Final
 >[!NOTE]
 >If you are looking for a first cartridge to build yourself, then this is it.
 
+>[!TIP]
+>Compatible with GBxCart and FlashGBX
+
 ## ⚪ Game Compatibility
 
 [COMPATIBILTY LIST](MBC5-FLASH-COMMPAT.txt)
