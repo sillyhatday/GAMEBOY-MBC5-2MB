@@ -2,21 +2,21 @@
 
 A working PCB layout for making your own MBC5 2MB based Gameboy cartridge. Final version fully tested. Unless there is an issue that comes up, then consider this complete.
 
-Using footprints from https://github.com/HDR Be sure to check out their designs as well.
+>[!NOTE]
+>If you are looking for a first cartridge to build yourself, then this is it.
 
-## Game Compatibility
+## ⚪ Game Compatibility
 
-Simply put, this has the second highest compatibility and the most cost effective of all types to make. If you are looking for a first cartridge to build yourself, then this is it.
+[COMPATIBILTY LIST](MBC5-FLASH-COMMPAT.txt)
 
-Nearly all Gameboy colour games used this memory mapper. It can address 32KB to 8MB of game storage and 8KB to 128KB of game save storage. This one only using 2MB of game storage and 32KB of save storage, as 95% of the games using this mapper are within that size range. Most 8KB save files should work fine on the 32KB chip also. The MBC5 should be compatible with all previous MBC chips before it. It depends if the programmer followed the rules when making their games. Mole Mania wasn't designed for an MBC5 and works perfectly, yet Zelda - Links Awakening doesn't work and crashes when saving. It all depends on where the programmers wrote to adress spaces. The MBC5 has a few more functions built in and a few other quirks (or fixes) that the MBC1 didn't have.
+Nearly all Gameboy colour games used this memory mapper. It can address up to 8MB of game storage and up to 128KB of game save storage. This one only using 2MB of ROM and 32KB of RAM. 95% of GBC games using this mapper are within this range. Most 8KB save files should work fine on the 32KB chip also. 
 
-Games that use real time clock functions do not work correctly on this cartridge due to it not having the clock functionality. Most Pokemon games will not work properly on this. They require a MBC3 cartridge.
+Earlier games from the DMG should work, Nintendo kept each revision of mapper compatible with the previous (for the most part). So long as programmers followed Nintendos suggestions when developing. Mole Mania wasn't designed for an MBC5 and works perfectly, yet Zelda - Links Awakening doesn't, it crashes when saving.
 
-The small chip in the centre of the PCB is not required for this cartridge. You can simply bridge the connection near it to bypass it. It’s only included as people seem to like using the extra refreshing logic with FRAM. Due to its subtle differences with SRAM some cartridges require it to allow it to work correctly. It seems the MBC5 in this usage already refreshes the FRAM of its own.
+>[!WARNING]
+>This cart will not work properly for real time clock games. This means games like Pokemon G/S/C.
 
-### See MBC5-FLASH-COMPAT.TXT for currently tested games
-
-## Photos
+## 📷 Photos
 
 ![IMG_5662](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/d1c8e6ab-e6d2-49b6-afda-699cef6fa9b4)
 ![IMG_5668](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/448fb447-8838-43ae-a5bb-0fa0a498bef3)
@@ -25,68 +25,47 @@ The small chip in the centre of the PCB is not required for this cartridge. You 
 Version 1.0 and 1.3 in Cloud Game Store shells with amazing labels from NextStopPlease https://www.instagram.com/nxt.stop.please/# https://nextstopplease.square.site/
 
 ![Gameboy MBC5 Cart + FRAM V2 Front](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/f2586d9a-831e-468e-8c8e-8a8ad4ca383e)
-![Gameboy MBC5 Cart + FRAM V2 Back](https://github.com/sillyhatday/GAMEBOY-FLASHCART-MBC5-2MB/assets/65309612/23483403-b0d2-4510-b748-d8e9af974f26)
 
-## Bill of materials:
+## 🟣 Bill of materials:
+
+>[IMPORTANT]
+>When ordering PCBs, be sure to order in 0.8mm thickness with gold plating!
+
 | Part | Quantity |
 |--------------|----|
 | 29F016 Flash | x1 |
-| FM1808 or FM18W08 (or FM18L08 not reccomended) | x1 |
+| FM1808 or FM18W08* | x1 |
 | MBC5 | x1 |
 | SN74LVC1G332DBVR | x1 (OPTIONAL) |
 | 10K 0603 resistor | x2 |
 | 0.1uF 0603 capacitor | x4 |
 
-## EEPROM 29F016B
+**FM18L08 will work but is not suggested*
 
-I've found them available from Aliexpress very easily. Lately the prices of these have risen. Once available for about £1 per chip are not £1.60 per chip. These are a 16-bit address and 8-bit data bus EEPROM. The write enable pin is brought to the audio pin on the Gameboy cartridge header. This is compatible with the GBxCart RW. The pin is held to 5v to keep it disabled during usage through a pullup resistor. You can buy 0603 spec 10k resistors or reuse the resistor on an original Nintendo doner PCB. I've not seen any need for this pull up resistor, but I can see it will cause a problem down the line somehow without it. 70 hours into Pokemon Yellow I wouldn't want the EEPROM to get corrupted and loose your save. I'm not sure if the audio pin is held low by the Gameboy, I think it is, so likely there isn't a need for it. You can omit it if you like. You'll save 500uA of current from the the Gameboy power supply.
+### 💻 EEPROM 29F016B <br>
+I've found them available from Aliexpress very easily. Lately the prices of these have risen. Once available for about £1 per chip are not £1.60 per chip. These are a 16-bit address and 8-bit data bus EEPROM. The write enable pin is brought to the audio pin on the Gameboy cartridge header. This is compatible with the GBxCart RW. The pin is held to 5v to keep it disabled during usage through a pullup resistor.
 
-## SRAM FM18W08
+### 🐏 FRAM FM1808 <br>
+These are expensive. Current prices are €11.90 from Mouser. They are available for much less on Aliexpress, for the same price you can get 5 - 10. These are known to be ***extremely*** unreliable. You are likely buying factory rejects that don't fully work or meet the speed rating. In a batch of 5 from Aliexpress I got, none of them worked. Another 10 I got, I went through 4 before finding a working one. In the end I went through 8 chips before getting one that works. The cost of 9 dodgy chips was more than one from Mouser.
 
-The SRAM isn't SRAM, its the modern FRAM that was made to replace battery backed SRAM in industrial PLC applications (among other things I'm sure). Once more Aliexpress has these in a small supply. These are the most expensive part of building this, apart from the donor MBC5 chip, depends on where you get the MBC5. The FRAM is available on eBay but the prices are egregious. You can get quality versions of the FRAM from reputable suppliers like Mouser and Digikey. The FM1808, FM18W08, FM1808B and FM18L08 all work in this desgin. FM1808 and the FM18L08 are out of production, so any you find will be old stock or poor copies. Bear in mind that the L version is a 3.3v part that is able to stand an extreme of 5v at its input, so I don't suggest using that if possible.
+### ❔ Memory Controller MBC5 <br>
+You used to be able to go on eBay and find trash games for €3 easily, some deals I've had as low as €1. I could go on eBay and grab one or two of them per week. They seem to have gone up and the best deals are about €5 now. You'll need a hot air station to remove the chip from the board.
 
-So in my tinkering with all this, I can suggest that you spend £12 per chip for a quality item. Aliexpress and eBay are full of either copies or factory rejected parts. You can find them for around £2 per chip and you get junk. In a batch of 5 from Aliexpress, none of them worked. From another batch, I went through 4 before finding a working one. In the end I went through 8 chips before getting one that works. So 9 chips x £2 is £18 for one working chip. Better off spending the £12 for one.
+## CHANGE LOG <br>
+| Date | Notes |
+| ---- | ----- |
+| 30/11/23 | Last update was not final. This should hopefully be final. More tastful logo design on the cart now. I've spend ages making sure the holes in the PCB are the same as factory Nintendo PCB. They should actually fit in Nintendo shells now with the small top locating pin. Nothing more to add now. I've actually got some of these on order for myself. Last ones I had made were V1.2 |
+| 08/05/23 | Big update. Added OR gate for better MBC1 compatibility, which can be bypassed if not desired. Moved nearly every trace to reduce vias and improve appearance. Likely final update unless there is a problem. |
+| 08/04/23 | Changed fill edge limits to right values for new KiCad version. Changed Sillyhatday rear label to be more subtle. |
+| 10/03/23 | Updated the top edge cut drill hole. Doesn't quite fit in shells with the top stud properly. It should now, but is untested. |
+| 05/03/23 | Update to V1.4. Changed some tiny errors in trace routing, invisible but bugged me. Changed MBC and ROM footprints to standard library footprints. |
+| 07/02/23 | Updated to V1.3. Adjusted some trace routes for a better looking board. Added missing capacitor value to board for C4. Added many games to compatibility list. |
+| 21/01/23 | Updated to V1.2. The Board size has been adjusted to better fit into cartridge shells. Also added extra 5v trace. |
+| 15/01/23 | Updated Readme in the FRAM section and the end section. Cypress is a the newer name for Ramtron, it's definitly a problem with junk parts not Cypress chips. Also added more to the compatability list. |
+| 31/05/22 | Not a change as such. I've had problems with Cypress branded FRAM. I Haven't determined if it is bad quality or fake chips. Right now, I suggest sticking with Ramtron branded FRAM. All kinds of strange behavior is to be expected. |
+| 24/04/22 | Noticed a mistake in 5v top plane. Not sure how this hasn't caused problems. Also changed routing of some grounds and 5v traces. |
+| 20/03/22 | First Revision uploaded. A few hours of testing done, everything worked as expected. Built 10 of these original versions. |
 
-## Memory Controller MBC5
-
-This is the most expensive part of the cartridge. That does depend though. I have been able to find a lot of MBC5 based games for £3. You can be more patient and get them a touch cheaper. I've had some for as low as £1. You'll need a heat gun to remove the chip from the board. It can be done with a soldering iron with gentle prising and patience.
-
-It's not hard though, as every basic game out there for the GBC was MBC5 based. So, lots to go at.
-
-## CHANGE LOG
-
-30/11/23
-Last update was not final. This should hopefully be final. More tastful logo design on the cart now. I've spend ages making sure the holes in the PCB are the same as factory Nintendo PCB. They should actually fit in Nintendo shells now with the small top locating pin. Nothing more to add now. I've actually got some of these on order for myself. Last ones I had made were V1.2
-
-08/05/23
-Big update. Added OR gate for better MBC1 compatibility, which can be bypassed if not desired. Moved nearly every trace to reduce vias and improve appearance. Likely final update unless there is a problem.
-
-08/04/23
-Changed fill edge limits to right values for new KiCad version. Changed Sillyhatday rear label to be more subtle.
-
-10/03/23
-Updated the top edge cut drill hole. Doesn't quite fit in shells with the top stud properly. It should now, but is untested.
-
-05/03/23
-Update to V1.4. Changed some tiny errors in trace routing, invisible but bugged me. Changed MBC and ROM footprints to standard library footprints.
-
-07/02/23
-Updated to V1.3. Adjusted some trace routes for a better looking board. Added missing capacitor value to board for C4. Added many games to compatibility list.
-
-21/01/23
-Updated to V1.2. The Board size has been adjusted to better fit into cartridge shells. Also added extra 5v trace.
-
-15/01/23
-Updated Readme in the FRAM section and the end section. Cypress is a the newer name for Ramtron, it's definitly a problem with junk parts not Cypress chips. Also added more to the compatability list.
-
-31/05/22 Not a change as such. I've had problems with Cypress branded FRAM. I Haven't determined if it is bad quality or fake chips. Right now, I suggest sticking with Ramtron branded FRAM. All kinds of strange behavior is to be expected.
-
-24/04/22
-Noticed a mistake in 5v top plane. Not sure how this hasn't caused problems. Also changed routing of some grounds and 5v traces.
-
-20/03/22
-First Revision uploaded. A few hours of testing done, everything worked as expected. Built 10 of these original versions.
-
-## License
+## ⚖️ License
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. You are able to copy and redistribute the material in any medium or format, as well as remix, transform, or build upon the material for any purpose (even commercial) - but you must give appropriate credit, provide a link to the license, and indicate if any changes were made.
